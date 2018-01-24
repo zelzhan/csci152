@@ -56,7 +56,7 @@ public class Clock {
 
     //setters
     public void setHours(int inputHours){
-        if (inputHours > 0) {
+        if (inputHours > 0 || inputHours < 24) {
             hours = inputHours;
         }
     }
@@ -71,10 +71,16 @@ public class Clock {
     }
 
     public void setSeconds(int inputSeconds){
-        if (inputSeconds > 59) {
+        if (inputSeconds > 59 && inputSeconds != 0) {
             seconds += inputSeconds%60;
-            minutes += inputSeconds%3600 / 60;
-            hours += inputSeconds/3600;
+            if (seconds == 0) {
+                minutes++;
+            }
+            if (minutes > 59) {
+                minutes = 0;
+                hours++;
+            }
+            //hours += inputSeconds/3600;
         } else if (inputSeconds > 0){
             seconds = inputSeconds;
         }

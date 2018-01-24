@@ -19,9 +19,5 @@ public class ClockTest2 {
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
-
-
-
-
     }
 }

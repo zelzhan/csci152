@@ -40,42 +40,29 @@ public class Automobile {
 
     //getters
 
-    /**
-     * @return speed
-     */
+
     public double getSpeed() {
         return speed;
     }
 
-    /**
-     * @return plate
-     */
+
     public String getPlate() {
         return plate;
     }
 
     //setter
 
-    /**
-     * @param setter to set
-     */
+
     public void setPlate(String setter) {
         plate = setter;
     }
 
-    /**
-     * Method intended to calculate the total distance travelled
-     * @param time
-     * @return total distance
-     */
+
     public double calculateDistance(double time) {
         return speed * time;
     }
 
-    /**
-     * Allow this method to return all parameters of automobile
-     * @return concatenated string
-     */
+
     public String toString() {
         return "Engine is running: " + isEngineRunning() + "\nCurrent speed: " + getSpeed() + "\nLicense plate is: " +
         getPlate();
