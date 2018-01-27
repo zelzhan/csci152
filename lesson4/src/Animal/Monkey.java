@@ -29,7 +29,7 @@ public class Monkey extends AnimalImpl{
     public String toString(){
         return "A Monkey which is " + this.age + " years old\n" +
                 "This Monkey is Ill: " + this.isIll + "\n" +
-                "Is this Monkey is married? " + this.isMarried + "\n" +
+                "Is this Monkey married? " + this.isMarried + "\n" +
                 "Is this Monkey alive? " + this.isAlive + '\n';
     }
 }

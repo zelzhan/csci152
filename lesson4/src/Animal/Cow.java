@@ -1,9 +1,17 @@
 package Animal;
 
 public class Cow extends AnimalImpl {
+    private int maxAge;
     public Cow(){
         super();
+        this.maxAge = 20;
     }
+
+    public Cow(int maxAge){
+        super();
+        this.maxAge = maxAge;
+    }
+
     @Override
     public String animalKind() {
         return "Cow";
@@ -18,6 +26,14 @@ public class Cow extends AnimalImpl {
     }
 
     @Override
+    public void ageOneYear() {
+        this.age++;
+        if(this.age > this.maxAge){
+            this.isAlive = false;
+        }
+    }
+
+    @Override
     public boolean canEat(String food) {
         if(food.equals("Grass")){
             return true;
@@ -28,7 +44,7 @@ public class Cow extends AnimalImpl {
     public String toString(){
         return "A cow which is " + this.age + " years old\n" +
                 "This cow is Ill: " + this.isIll + "\n" +
-                "Is this cow is married? " + this.isMarried + "\n" +
+                "Is this cow married? " + this.isMarried + "\n" +
                 "Is this cow alive? " + this.isAlive + '\n';
     }
 }

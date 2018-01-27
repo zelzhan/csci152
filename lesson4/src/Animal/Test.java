@@ -23,7 +23,8 @@ public class Test {
         cow.ageOneYear();
         cow.ageOneYear();
         cow.ageOneYear();
-        cow.ageOneYear();cow.ageOneYear();cow.ageOneYear();cow.ageOneYear();cow.ageOneYear();
+        cow.ageOneYear();
+        cow.ageOneYear();cow.ageOneYear();cow.ageOneYear();cow.ageOneYear();
 
         System.out.println(cow);
         System.out.println(tiger);

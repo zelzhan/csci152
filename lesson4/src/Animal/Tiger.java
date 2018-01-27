@@ -31,7 +31,7 @@ public class Tiger extends AnimalImpl{
     public String toString(){
         return "A Tiger which is " + this.age + " years old\n" +
                 "This Tiger is Ill: " + this.isIll + "\n" +
-                "Is this Tiger is married? " + this.isMarried + "\n" +
+                "Is this Tiger  married? " + this.isMarried + "\n" +
                 "Is this Tiger is alive? " + this.isAlive + "\n";
     }
 }

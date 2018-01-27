@@ -47,6 +47,10 @@ public interface Animal {
      */
     public void isAlone(boolean isMarried);
 
-    public void setMaxAge(int maxAge);
+//    /**
+//     * Sets manually maxAge
+//     * @param maxAge to which the maxAge will be set
+//     */
+//    public void setMaxAge(int maxAge);
 
 }

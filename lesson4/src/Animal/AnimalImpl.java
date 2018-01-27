@@ -1,14 +1,13 @@
 package Animal;
 
 public class AnimalImpl implements Animal{
-    public int age, maxAge;
+    public int age;
     public boolean isIll, isMarried, isAlive;
 
     public AnimalImpl(){
         this.age = 0;
         this.isIll = false;
         this.isMarried = false;
-        this.maxAge = 10;
         this.isAlive = true;
     }
     @Override
@@ -29,9 +28,9 @@ public class AnimalImpl implements Animal{
     @Override
     public void ageOneYear() {
         this.age++;
-        if(this.age > this.maxAge){
-            this.isAlive = false;
-        }
+//        if(this.age > this.maxAge){
+//            this.isAlive = false;
+//        }
     }
 
     @Override
@@ -48,8 +47,8 @@ public class AnimalImpl implements Animal{
     public void isIll(boolean isIll) {
         this.isIll = isIll;
     }
-    @Override
-    public void setMaxAge(int maxAge){
-        this.maxAge = maxAge;
-    }
+//    @Override
+//    public void setMaxAge(int maxAge){
+//        this.maxAge = maxAge;
+//    }
 }
