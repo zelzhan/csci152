@@ -24,7 +24,6 @@ public class DVD extends Library {
         System.out.println("Listening...");
     }
 
-
     /**
      * Constructor
      * @param amount amount of borrowed items
