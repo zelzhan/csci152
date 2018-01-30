@@ -35,9 +35,12 @@ public class IntQueue implements ArrayInQueue {
 
     @Override
     public int dequeue() throws Exception {
-        if(size == 0) throw new Exception("The queue is empty!");
+        if(size == 0) {
+            throw new Exception("The queue is empty!");
+        }
         int result = values[front];
         this.front++;
+        if(this.front == this.upperbound-1) this.front = 0;
         this.size--;
         return result;
     }
@@ -55,18 +58,39 @@ public class IntQueue implements ArrayInQueue {
 
     @Override
     public String toString() {
-        String string = " ";
-        int front = this.front, back = this.back;
-        for (; ; back--){
-            if(size == 0) break;
-            string += this.values[back-1] + " ";
-            if(front == back-1) break;
-            if(back - 1 == 0){
-                back = this.upperbound;
-                string += this.values[back-1];
-                back--;
+//        String string = " ";
+//
+//        int front = this.front, back = this.back;
+//        for (; ; back--){
+//            if(size == 0 || front == back-1) break;
+//            if(back == 0){
+//                string += this.values[upperbound-1] + " ";
+//                back = this.upperbound;
+//                back--;
+//            }
+//            if(back - 1 == 0){
+//                string += this.values[back-1] + " ";
+//                back = this.upperbound;
+//                string += this.values[back-1] + " ";
+//                back--;
+//            } else {
+//                string += this.values[back-1] + " ";
+//            }
+//        }
+//        string += this.values[front] + " ";
+//        return "back[" + string + "]front";
+//    }
+        String result =" ";
+        int front = this.front;
+        for(int i =0; i<this.size; i++) {
+            result += this.values[front] +" ";
+            if (front+1<upperbound){
+                front = front+1;
+            } else {
+                front = 0;
             }
         }
-        return "back[" + string + "]front";
+
+        return "front[" + result + "]back";
     }
 }
