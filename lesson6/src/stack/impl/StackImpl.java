@@ -35,6 +35,7 @@ public class StackImpl implements Stack{
             throw new Exception("The stack is already empty!!");
         }
         int result = values[this.size-1];
+        this.size--;
         return result;
     }
 
