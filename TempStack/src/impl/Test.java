@@ -1,4 +1,4 @@
-package stack.impl;
+package impl;
 
 public class Test {
     public static void main(String[] args){
@@ -6,8 +6,13 @@ public class Test {
         try{
             stack.pop();
         } catch( Exception ex){
-            stack.push(1);
-            System.out.println(ex.getMessage);
+            System.out.println(stack);
+            try{
+                stack.pop();
+            } catch (Exception e){
+                System.out.println(ex.getMessage());
+            }
+            System.out.println(ex.getMessage());
         }
         System.out.println(stack);
         System.out.println(stack.getSize());

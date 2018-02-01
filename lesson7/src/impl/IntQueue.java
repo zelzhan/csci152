@@ -25,7 +25,7 @@ public class IntQueue implements ArrayInQueue {
             this.upperbound *= 2;
             this.values = new int[this.upperbound];
             for(int i = 0; i<this.upperbound/2; i++){
-                this.values[i] = copyOfValues[i] ;
+                this.values[i] = copyOfValues[i];
             }
         }
         if(this.back == this.upperbound){
