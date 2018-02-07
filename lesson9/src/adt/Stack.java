@@ -2,17 +2,16 @@
 package adt;
 
 /**
- * A generic stack
- * @param <T>
+ * @param <X>
  */
-public interface Stack<T> {
+public interface Stack<X> {
 
     /**
      * Puts the given element on the top of the stack.
      *
      * @param value element to be added on the top of the stack
      */
-    public void push(T value);
+    public void push(X value);
 
     /**
      * Removes and returns the top most element of the stack
@@ -20,7 +19,7 @@ public interface Stack<T> {
      * @return the top most element of the stack
      * @throws Exception if the stack is empty
      */
-    public T pop() throws Exception;
+    public X pop() throws Exception;
 
     /**
      * @return the size of the stack

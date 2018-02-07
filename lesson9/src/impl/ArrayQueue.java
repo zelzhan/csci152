@@ -4,31 +4,31 @@
  * and open the template in the editor.
  */
 package impl;
-import adt.IntQueue;
+import adt.Queue;
 
 /**
- *
  * @author Elzhan
  */
-public class ArrayIntQueue implements IntQueue{
+public class ArrayQueue<X> implements Queue<X>{
 
-    private int [] values;
+    private X [] values;
     private int size;
     private int front;
     private int back;
 
-    public ArrayIntQueue(){
-        values = new int [5];
+    public ArrayQueue(){
+        values = (X[]) new  Object [5];
         size =0;
         back=0;
         front=0;
     }
 
+
     @Override
-    public void enqueue(int value) {
+    public void enqueue(X value) {
 
         if (front==(back+1)%values.length){
-            int[] tempValues=new int[values.length*2];
+            X[] tempValues= (X[]) new Object[values.length*2];
             for(int i=0,start=front; i <size;i++,start=(start+1)%values.length){
                 tempValues[i]=values[start];
             }
@@ -39,15 +39,13 @@ public class ArrayIntQueue implements IntQueue{
         values[back]=value;
         back=(back+1)%values.length;
         size++;
-
     }
 
+
     @Override
-    public int dequeue() throws Exception {
-        if(front==back){
-            throw new Exception("Queue is empty");
-        }
-        int result =values[front];
+    public X dequeue() throws Exception {
+        if(front==back) throw new Exception("Queue is empty");
+        X result =values[front];
         front= (front+1)%values.length ;
         size--;
         return result;
@@ -60,7 +58,7 @@ public class ArrayIntQueue implements IntQueue{
 
     @Override
     public void clear() {
-        int [] tempValues = new int [5];
+        X [] tempValues = (X[]) new Object[5];
         values= tempValues;
         size=0;
         front=0;
@@ -69,11 +67,8 @@ public class ArrayIntQueue implements IntQueue{
     }
 
     public String toString(){
-        String output="";
-        for (int i=0,start=front;i<size;i++,start=(start+1)%values.length){
-            output = output + values[start]+" ";
-        }
-
-        return "bottom["+output+"]top";
+        String string="";
+        for (int i=0,start=front;i<size;i++,start=(start+1)%values.length) string = string + values[start]+" ";
+        return "bottom["+string+"]top";
     }
 }

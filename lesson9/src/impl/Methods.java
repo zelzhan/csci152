@@ -1,15 +1,18 @@
 package impl;
-import adt.IntStack;
-import adt.IntQueue;
+
+import adt.Queue;
+import adt.Stack;
+import impl.ArrayStack;
+
 
 public class Methods {
-    public static int evenCount(IntStack stk){
+    public static int evenCount(Stack stk){
         int counter = 0, temp;
-        IntStack stack = new ArrayIntStack();
+        Stack<Integer> stack = new ArrayStack();
         //for loop doesn't work!
         while (stk.getSize() != 0) {
             try{
-                temp = stk.pop();
+                temp = (Integer) stk.pop();
                 if(temp%2 == 0) counter++;
                 stack.push(temp);
             } catch(Exception ex){
@@ -26,12 +29,12 @@ public class Methods {
         return counter;
     }
 
-    public static IntQueue copyQueue(IntQueue orig){
+    public static Queue copyQueue(Queue orig){
         int temp, size = orig.getSize();
-          IntQueue copy = new ArrayIntQueue();
+          Queue<Integer> copy = new ArrayQueue();
           for(int i = 0; i < size; i++ ){
               try{
-                  temp = orig.dequeue();
+                  temp = (Integer) orig.dequeue();
                   orig.enqueue(temp);
                   copy.enqueue(temp);
               } catch(Exception ex){
@@ -41,12 +44,12 @@ public class Methods {
           return copy;
     }
 
-    public static void reverseQueue(IntQueue toRev) {
+    public static void reverseQueue(Queue toRev) {
         int size = toRev.getSize();
-        IntStack stk= new ArrayIntStack();
+        Stack<Integer> stk= new ArrayStack();
         while(size != 0){
             try{
-                stk.push(toRev.dequeue());
+                stk.push((Integer) toRev.dequeue());
             } catch (Exception ex) {
                 break;
             }
@@ -61,19 +64,19 @@ public class Methods {
         }
     }
 
-    public static IntStack merge(IntStack s1, IntStack s2){
+    public static Stack merge(Stack s1, Stack s2){
         int temp1 = 0, temp2 = 0, size1, size2;
         int[] arr;
-        IntStack mergedStack = new ArrayIntStack();
-        IntStack tempStack = new ArrayIntStack();
+        Stack<Integer> mergedStack = new ArrayStack();
+        Stack<Integer> tempStack = new ArrayStack();
         while(true){
             if(s1.getSize() == 0 && s2.getSize() == 0) break;
             try{
-                temp2 = s2.pop();
+                temp2 = (Integer) s2.pop();
             } catch (Exception e) {
             }
             try{
-                temp1 = s1.pop();
+                temp1 = (Integer) s1.pop();
             } catch (Exception ex){
             }
             if(temp1 > temp2) {
