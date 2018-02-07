@@ -2,7 +2,7 @@ package impl;
 
 public class QueueImpl {
     public static void main(String[] args){
-        IntQueue Queue = new IntQueue();
+        CopyQueueImpl Queue = new CopyQueueImpl();
 
         //Creates a new queue and tries to dequeue from the empty queue
         try {

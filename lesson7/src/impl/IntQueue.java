@@ -14,6 +14,8 @@ public class IntQueue implements ArrayInQueue {
 
     @Override
     public void enqueue(int value) {
+        System.out.println("Back: " + this.back);
+//        System.out.println("Front: " + this.front);
         this.values[back] = value;
         this.size++;
         this.back++;
@@ -29,8 +31,10 @@ public class IntQueue implements ArrayInQueue {
             }
         }
         if(this.back == this.upperbound){
-            this.back -= this.upperbound;
+            this.back = 0;
         }
+        System.out.println("Back: " + this.back);
+        System.out.println("bound: " + this.upperbound);
     }
 
     @Override
@@ -53,6 +57,8 @@ public class IntQueue implements ArrayInQueue {
     @Override
     public void clear() {
         this.size = 0;
+        this.front = 0;
+        this.back = 0;
         this.values = new int[upperbound];
     }
 
