@@ -14,23 +14,23 @@ public class Test {
 
         //This is tester for evenCount method
         for (int i = 0; i < 10; i++) stack.push(i);
-        System.out.println(stack);
-        System.out.println(method.evenCount(stack));
-        System.out.println(stack);
-
-
-        //Tester for copyQueue method
-        for (int j = 0; j < 10; j++){
-            queue.enqueue(j);
-        }
-        System.out.println("Original:" + queue);
-        copy = method.copyQueue(queue);
-        System.out.println("Copy:" + copy);
-        System.out.println("Original: " + queue);
-
-        //tester for reverseQueue method
-        method.reverseQueue(queue);
-        System.out.println("Reversed Queue:" + queue);
+//        System.out.println(stack);
+//        System.out.println(method.evenCount(stack));
+//        System.out.println(stack);
+//
+//
+//        //Tester for copyQueue method
+//        for (int j = 0; j < 10; j++){
+//            queue.enqueue(j);
+//        }
+//        System.out.println("Original:" + queue);
+//        copy = method.copyQueue(queue);
+//        System.out.println("Copy:" + copy);
+//        System.out.println("Original: " + queue);
+//
+//        //tester for reverseQueue method
+//        method.reverseQueue(queue);
+//        System.out.println("Reversed Queue:" + queue);
 
 
         //tester for merge method

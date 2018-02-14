@@ -2,17 +2,16 @@
 package adt;
 
 /**
- * A generic queue
- * @param <X>
+ * A queue of primitive integers
  */
-public interface Queue<X> {
+public interface IntQueue {
 
     /**
      * Adds an element to the end of the queue.
      *
      * @param value element to be added to the end of the queue
      */
-    public void enqueue(X value);
+    public void enqueue(int value);
 
     /**
      * Removes and returns the front most element of the queue
@@ -20,7 +19,7 @@ public interface Queue<X> {
      * @return the front most element of the queue
      * @throws Exception if the queue is empty
      */
-    public X dequeue() throws Exception;
+    public int dequeue() throws Exception;
 
     /**
      * @return the size of the queue
