@@ -21,7 +21,7 @@ public class LinkedListStack<T> implements Stack<T> {
 
     @Override
     public T pop() throws Exception {
-        if(this.size == 0) throw new Exception("AHHAHAHAHAHAHAAHHAHAHAHAH");
+        if(this.size == 0) throw new Exception("Exception");
         this.result = top.getValue();
         this.top = top.getLink();
         size--;
