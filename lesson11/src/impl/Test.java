@@ -5,14 +5,26 @@ import adt.Queue;
 
 public class Test {
     public static void main(String[] args){
-        Queue que = new LinkedListQueue();
-        for(int i =0; i < 20; i++) que.enqueue(i);
+        Queue<Character> que = new LinkedListQueue<Character>();
+        que.enqueue(')');
+        que.enqueue('}');
+        que.enqueue(']');
+        que.enqueue('{');
+        que.enqueue('[');
+        que.enqueue('(');
+//        que.enqueue(']');
+//        que.enqueue('}');
+//        que.enqueue('{');
+//        que.enqueue('[');
+
+
+//( ) [ ] { }               ( { [ ] } [ ] )              [ { } ] ( [ ] [ ] )             ( [ { ] } )
         System.out.println(que);
         try{
-        que.dequeue();
+            System.out.println(Bal.isBalanced(que));
         } catch (Exception ex){
-            System.out.println(ex);
+            System.out.println(ex.getMessage());
         }
-        System.out.println(que);
-}
+
+    }
 }

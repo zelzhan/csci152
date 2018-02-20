@@ -1,5 +1,6 @@
 package impl;
 import adt.Queue;
+import adt.Stack;
 
 public class LinkedListQueue<T> implements Queue<T> {
     public Node<T> front, back, temp;
@@ -48,12 +49,19 @@ public class LinkedListQueue<T> implements Queue<T> {
 
     @Override
     public String toString(){
+        Stack<T> stk = new LinkedListStack<T>();
         String string = "";
         Node<T> cur = front;
         while(cur!=null){
-            string += cur+" ";
+            stk.push(cur.getValue());
             cur = cur.getLink();
         }
-        return "front[ " + string + "]back";
+        while(stk.getSize() != 0) {
+            try {
+                string += stk.pop();
+            } catch (Exception ex){
+            }
+        }
+        return "back|" + string + "|front";
     }
 }
