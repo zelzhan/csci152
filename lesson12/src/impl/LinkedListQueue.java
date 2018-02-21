@@ -3,9 +3,9 @@ import adt.Queue;
 import adt.Stack;
 
 public class LinkedListQueue<T> implements Queue<T> {
-    private Node<T> front, back, temp;
-    private int size;
-    private T result;
+    public Node<T> front, back, temp;
+    public int size;
+    public T result;
 
     public LinkedListQueue () {
         front = null;
