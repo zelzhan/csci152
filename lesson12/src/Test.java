@@ -22,7 +22,7 @@ public class Test {
         } catch (Exception ex){
             System.out.println(ex.getMessage());
         }
-        for (int k = 5; k <= 915; k+=5) sortq.insert(k);
+        for (int k = 5; k <= 915; k+=10) sortq.insert(k);
         for (;sortq.getSize() != 0;){
             try{
                 sortq.dequeue();
@@ -30,14 +30,14 @@ public class Test {
                 System.out.println(ex.getMessage());
             }
         }
-        sortq.insert(3);
-        sortq.insert(5);
-        sortq.insert(2);
-        sortq.clear();
-        sortq.insert(3);
-        sortq.insert(10);
-        sortq.insert(2);
-        sortq.insert(2);
+//        sortq.insert(3);
+//        sortq.insert(5);
+//        sortq.insert(2);
+//        sortq.clear();
+//        sortq.insert(3);
+//        sortq.insert(10);
+//        sortq.insert(2);
+//        sortq.insert(2);
         System.out.println(sortq);
         System.out.println(sortq.getSize());
     }

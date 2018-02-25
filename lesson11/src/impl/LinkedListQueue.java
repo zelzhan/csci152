@@ -22,7 +22,6 @@ public class LinkedListQueue<T> implements Queue<T> {
         }
         back.setLink(temp);
         back = temp;
-
         size++;
     }
 
@@ -32,6 +31,7 @@ public class LinkedListQueue<T> implements Queue<T> {
         result = front.getValue();
         front = front.getLink();
         if(front == back) back = null;
+        size--;
         return result;
     }
 

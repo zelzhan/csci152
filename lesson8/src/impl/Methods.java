@@ -165,7 +165,5 @@ public class Methods {
 
         }
         return mergedStack;
-
-
     }
 }
