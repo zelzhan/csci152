@@ -105,10 +105,10 @@ public class Test {
         Deque<Integer> deq2 = new LinkedListDeque<Integer>();
         Deque<Integer> end = new LinkedListDeque<Integer>();
         for(int k = 0; k < 10; k++) deq1.pushToFront(k);
-        deq1.pushToFront(5);
-        for(int j = 0; j < 20; j+=2) deq1.pushToFront(j);
-        deq1.pushToFront(2);
-        deq1.pushToFront(1);
+        deq1.pushToFront(3);
+        for(int j = 0; j < 20; j+=2) deq2.pushToFront(j);
+        deq2.pushToFront(2);
+        deq2.pushToFront(5);
         deq1.pushToFront(10);
         Merge merge = new Merge();
         System.out.println(deq1);
