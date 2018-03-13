@@ -120,10 +120,10 @@ public class BSTSet<T extends Comparable> implements Set<T> {
 //        TreeNode<T> node = root;
 //        while(node != null && size != 1) node = node.getLeft();
 
-        if(size == 0) throw new Exception("Empty!");
-        T val = root.getValue();
+        if(size == 0) throw new Exception("Exception");
+        T value = root.getValue();
         remove(root.getLeft().getValue());
-        return val;
+        return value;
     }
 
     @Override
@@ -168,16 +168,6 @@ public class BSTSet<T extends Comparable> implements Set<T> {
             return containsHelper(node.getLeft(), value);
         }
         return false;
-    }
-
-    private TreeNode removeHelper(TreeNode<T> node, T value){
-        if(node.getValue().compareTo(value) == 0) return node;
-        if(node.getValue().compareTo(value) < 0){
-            node = addHelper(node.getRight(), value);
-        } else if(node.getValue().compareTo(value) > 0){
-            node = addHelper(node.getLeft(), value);
-        }
-        return node;
     }
 
 
