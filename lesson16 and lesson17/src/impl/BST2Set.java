@@ -96,18 +96,18 @@ public class BST2Set<T extends Comparable> implements Set<T> {
         return node.getValue();
     }
 
-    private OnOffTreeNode removeAnyHelper(OnOffTreeNode node){
-        if ((node.getRight() == null || node.getRight().isActive() == false)
-                && (node.getLeft() == null || node.getLeft().isActive() == false)){
-            node.setActive(false);
-            return node;
+    private OnOffTreeNode removeAnyHelper(OnOffTreeNode nododo){
+        if ((nododo.getRight() == null || nododo.getRight().isActive() == false)
+                && (nododo.getLeft() == null || nododo.getLeft().isActive() == false)){
+            nododo.setActive(false);
+            return nododo;
         }
-        if(node.getLeft() == null || node.getLeft().isActive() == false){
-           node = removeAnyHelper(node.getRight());
+        if(nododo.getLeft() == null || nododo.getLeft().isActive() == false){
+           nododo= removeAnyHelper(nododo.getRight());
         }
-        if(node.getRight() == null || node.getRight().isActive() == false)
-            node = removeAnyHelper(node.getLeft());
-        return node;
+        if(nododo.getRight() == null || nododo.getRight().isActive() == false)
+            nododo= removeAnyHelper(nododo.getLeft());
+        return nododo;
     }
 
     public T getRoot(){
