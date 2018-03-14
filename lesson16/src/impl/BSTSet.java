@@ -83,6 +83,11 @@ public class BSTSet<T extends Comparable> implements Set<T> {
 
         //root case
         if(link == prevLink){
+            if(link.getRight().getLeft() == null){
+                link.getRight().setLeft(root.getLeft());
+                root = link.getRight();
+                return true;
+            }
             while(temp.getLeft() != null){
                 temp2 = temp;
                 temp = temp.getLeft();
@@ -105,7 +110,7 @@ public class BSTSet<T extends Comparable> implements Set<T> {
             temp2 = temp;
             temp = temp.getLeft();
         }
-        temp2.setLeft(null);
+        temp2.setLeft(temp.getRight());
         temp.setLeft(link.getLeft());
         temp.setRight(link.getRight());
         if(prevLink.getValue().compareTo(temp.getValue()) < 0) prevLink.setRight(temp);
