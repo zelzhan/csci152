@@ -4,22 +4,28 @@ import impl.LLQueueSet;
 
 public class Methods {
 
-    public static boolean isSubset(Set<Integer> set1, Set<Integer> set2) {
-        int size = set1.getSize(), val = 0;
-        for(int i = 0; i<size; i++) {
-            try {
-                val = set1.removeAny();
-                set1.add(val);
+    public static boolean isSusbset(Set<Integer> set1, Set<Integer> set2){
+        Set<Integer> temp = new LLQueueSet<>();
+        boolean bool = true;
+        while(set1.getSize() != 0){
+            try{
+                int val = set1.removeAny();
+                temp.add(val);
                 if(set2.contains(val)) continue;
-                return true;
-            } catch (Exception ex) {
-                System.out.println(ex.getMessage());
+                bool = false;
+                break;
+            } catch (Exception ex){
             }
         }
-        return false;
+        while(temp.getSize() != 0){
+            try{
+                set1.add(temp.removeAny());
+            } catch (Exception ex){
+            }
+        }
+        return bool;
     }
-
-    public static Set<Integer> intersection(Set<Integer> set1, Set<Integer> set2) {
+        public static Set<Integer> intersection(Set<Integer> set1, Set<Integer> set2) {
         Set<Integer> result = new LLQueueSet<>();
         Set<Integer> save = new LLQueueSet<>();
         int size = set1.getSize(), val = 0;
@@ -32,6 +38,7 @@ public class Methods {
             } catch (Exception ex) {
             }
         }
+
 
         for(int i = 0; i<size; i++) {
             try {

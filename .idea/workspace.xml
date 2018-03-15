@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b947c9-32e2-4121-b096-1cc47a7d734f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lesson16/lesson16.iml" afterPath="$PROJECT_DIR$/lesson16 and lesson17/lesson16.iml" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/Student.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/Student.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/Test.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/Test.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/TestExercise.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/TestExercise.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/TestStudent.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/TestStudent.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/adt/Deque.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/adt/Deque.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/adt/IntQueue.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/adt/IntQueue.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/adt/Queue.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/adt/Queue.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/adt/Set.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/adt/Set.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/adt/SortedQueue.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/adt/SortedQueue.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/adt/Stack.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/adt/Stack.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/BST2Set.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/BSTSet.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/BSTSet.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/DoublyLinkedNode.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/DoublyLinkedNode.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/LLQueueSet.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/LLQueueSet.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/LLStackSet.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/LLStackSet.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/LinkedListDeque.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/LinkedListDeque.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/LinkedListQueue.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/LinkedListQueue.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/LinkedListSortedQueue.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/LinkedListSortedQueue.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/LinkedListStack.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/LinkedListStack.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/Node.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/Node.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/OnOffTreeNode.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/OnOffTreeNode.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16/src/impl/TreeNode.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/TreeNode.java" />
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson1.iml" afterPath="$PROJECT_DIR$/lesson1/lesson01.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson15/src/MethodTest.java" afterPath="$PROJECT_DIR$/lesson15/src/MethodTest.java" />
+      <change beforePath="$PROJECT_DIR$/lesson15/src/Methods.java" afterPath="$PROJECT_DIR$/lesson15/src/Methods.java" />
+      <change beforePath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson15/MethodTest.class" afterPath="$PROJECT_DIR$/out/production/lesson15/MethodTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson15/Methods.class" afterPath="$PROJECT_DIR$/out/production/lesson15/Methods.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson16/impl/BST2Set.class" afterPath="$PROJECT_DIR$/out/production/lesson16/impl/BST2Set.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,31 +50,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BST2Set.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BST2Set.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="104" column="77" lean-forward="true" selection-start-line="104" selection-start-column="77" selection-end-line="104" selection-end-column="77" />
+            <state relative-caret-position="1511">
+              <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1544#1545#0" expanded="true" />
                 <element signature="e#1594#1595#0" expanded="true" />
-                <element signature="e#3587#3588#0" expanded="true" />
-                <element signature="e#3625#3626#0" expanded="true" />
-                <element signature="e#3666#3667#0" expanded="true" />
-                <element signature="e#3693#3694#0" expanded="true" />
-                <element signature="e#3824#3825#0" expanded="true" />
-                <element signature="e#3879#3880#0" expanded="true" />
+                <element signature="e#3589#3590#0" expanded="true" />
+                <element signature="e#3627#3628#0" expanded="true" />
+                <element signature="e#3668#3669#0" expanded="true" />
+                <element signature="e#3695#3696#0" expanded="true" />
+                <element signature="e#3826#3827#0" expanded="true" />
+                <element signature="e#3881#3882#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LLQueueSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LLQueueSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-349">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LLStackSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LLStackSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-109">
+              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Methods.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson15/src/Methods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/Test.java">
+        <entry file="file://$PROJECT_DIR$/lesson15/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="206">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15/src/StackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15/src/MethodTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,26 +132,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnOffTreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/OnOffTreeNode.java">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-499">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding>
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="26">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/TreeNode.java">
+      <file leaf-file-name="LinkedListQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LinkedListQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -185,13 +215,11 @@
         <option value="$PROJECT_DIR$/lesson15/src/Student.java" />
         <option value="$PROJECT_DIR$/lesson15/src/Test.java" />
         <option value="$PROJECT_DIR$/lesson15/src/Subset.java" />
-        <option value="$PROJECT_DIR$/lesson15/src/MethodTest.java" />
         <option value="$PROJECT_DIR$/lesson16/src/impl/TreeNode.java" />
         <option value="$PROJECT_DIR$/lesson16/src/TestExercise.java" />
         <option value="$PROJECT_DIR$/lesson15/src/adt/StackTest.java" />
         <option value="$PROJECT_DIR$/lesson15/src/StackTest.java" />
         <option value="$PROJECT_DIR$/lesson15/src/impl/LLStackSet.java" />
-        <option value="$PROJECT_DIR$/lesson15/src/Methods.java" />
         <option value="$PROJECT_DIR$/lesson16/src/adt/adt/Queue.java" />
         <option value="$PROJECT_DIR$/lesson16/src/TestStudent.java" />
         <option value="$PROJECT_DIR$/lesson16/src/impl/OnOffTreeNode.java" />
@@ -199,6 +227,8 @@
         <option value="$PROJECT_DIR$/lesson16/src/Test.java" />
         <option value="$PROJECT_DIR$/lesson16/src/impl/BST2Set.java" />
         <option value="$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java" />
+        <option value="$PROJECT_DIR$/lesson15/src/MethodTest.java" />
+        <option value="$PROJECT_DIR$/lesson15/src/Methods.java" />
       </list>
     </option>
   </component>
@@ -230,6 +260,24 @@
             <path>
               <item name="csci152" type="b2602c69:ProjectViewProjectNode" />
               <item name="csci152" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csci152" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csci152" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csci152" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csci152" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson15" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csci152" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csci152" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson15" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csci152" type="b2602c69:ProjectViewProjectNode" />
@@ -322,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.MethodTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -566,11 +614,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestStudent" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StackTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MethodTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MethodTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestStudent" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StackTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +651,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30793652" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30793652" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30793652" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -733,52 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LinkedListQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LLStackSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/src/Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LLQueueSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson15/src/adt/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/src/MethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -872,13 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/src/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/TestExercise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -903,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -924,23 +916,6 @@
           <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/BSTSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="88" column="28" lean-forward="false" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#5674#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#4116#4117#0" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4274#4275#0" expanded="true" />
-            <element signature="e#4329#4330#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -976,21 +951,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LinkedListQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/BSTSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="88" column="28" lean-forward="false" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#5674#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#4116#4117#0" expanded="true" />
+            <element signature="e#4143#4144#0" expanded="true" />
+            <element signature="e#4274#4275#0" expanded="true" />
+            <element signature="e#4329#4330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="104" column="77" lean-forward="true" selection-start-line="104" selection-start-column="77" selection-end-line="104" selection-end-column="77" />
+        <state relative-caret-position="1511">
+          <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1544#1545#0" expanded="true" />
             <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#3587#3588#0" expanded="true" />
-            <element signature="e#3625#3626#0" expanded="true" />
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3693#3694#0" expanded="true" />
-            <element signature="e#3824#3825#0" expanded="true" />
-            <element signature="e#3879#3880#0" expanded="true" />
+            <element signature="e#3589#3590#0" expanded="true" />
+            <element signature="e#3627#3628#0" expanded="true" />
+            <element signature="e#3668#3669#0" expanded="true" />
+            <element signature="e#3695#3696#0" expanded="true" />
+            <element signature="e#3826#3827#0" expanded="true" />
+            <element signature="e#3881#3882#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LLQueueSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/src/impl/LLStackSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/src/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/src/MethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15/src/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

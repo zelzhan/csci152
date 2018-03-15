@@ -103,10 +103,10 @@ public class BST2Set<T extends Comparable> implements Set<T> {
             return nododo;
         }
         if(nododo.getLeft() == null || nododo.getLeft().isActive() == false){
-           nododo= removeAnyHelper(nododo.getRight());
+           nododo = removeAnyHelper(nododo.getRight());
         }
         if(nododo.getRight() == null || nododo.getRight().isActive() == false)
-            nododo= removeAnyHelper(nododo.getLeft());
+            nododo = removeAnyHelper(nododo.getLeft());
         return nododo;
     }
 
