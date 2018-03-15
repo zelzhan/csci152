@@ -5,15 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b947c9-32e2-4121-b096-1cc47a7d734f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/lesson08/src/adt/IntQueue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lesson08/src/adt/IntStack.java" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lesson1/lesson1.iml" afterPath="$PROJECT_DIR$/lesson1/lesson01.iml" />
-      <change beforePath="$PROJECT_DIR$/lesson15/src/MethodTest.java" afterPath="$PROJECT_DIR$/lesson15/src/MethodTest.java" />
+      <change beforePath="$PROJECT_DIR$/lesson1/lesson01.iml" afterPath="$PROJECT_DIR$/lesson01/lesson01.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson1/src/input1.java" afterPath="$PROJECT_DIR$/lesson01/src/input1.java" />
+      <change beforePath="$PROJECT_DIR$/lesson1/src/input2.java" afterPath="$PROJECT_DIR$/lesson01/src/input2.java" />
+      <change beforePath="$PROJECT_DIR$/lesson1/src/input3.java" afterPath="$PROJECT_DIR$/lesson01/src/input3.java" />
       <change beforePath="$PROJECT_DIR$/lesson15/src/Methods.java" afterPath="$PROJECT_DIR$/lesson15/src/Methods.java" />
-      <change beforePath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java" afterPath="$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson15/MethodTest.class" afterPath="$PROJECT_DIR$/out/production/lesson15/MethodTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson15/Methods.class" afterPath="$PROJECT_DIR$/out/production/lesson15/Methods.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson16/impl/BST2Set.class" afterPath="$PROJECT_DIR$/out/production/lesson16/impl/BST2Set.class" />
+      <change beforePath="$PROJECT_DIR$/lesson2/lesson2.iml" afterPath="$PROJECT_DIR$/lesson02/lesson2.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson2/src/Auto/AutoTest.java" afterPath="$PROJECT_DIR$/lesson02/src/Auto/AutoTest.java" />
+      <change beforePath="$PROJECT_DIR$/lesson2/src/Auto/Automobile.java" afterPath="$PROJECT_DIR$/lesson02/src/Auto/Automobile.java" />
+      <change beforePath="$PROJECT_DIR$/lesson2/src/Clock/Clock.java" afterPath="$PROJECT_DIR$/lesson02/src/Clock/Clock.java" />
+      <change beforePath="$PROJECT_DIR$/lesson2/src/Clock/ClockTest.java" afterPath="$PROJECT_DIR$/lesson02/src/Clock/ClockTest.java" />
+      <change beforePath="$PROJECT_DIR$/lesson3/lesson3.iml" afterPath="$PROJECT_DIR$/lesson03/lesson3.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson3/src/Auto2/Automobile.java" afterPath="$PROJECT_DIR$/lesson03/src/Auto2/Automobile.java" />
+      <change beforePath="$PROJECT_DIR$/lesson3/src/Clock2/Clock2.java" afterPath="$PROJECT_DIR$/lesson03/src/Clock2/Clock2.java" />
+      <change beforePath="$PROJECT_DIR$/lesson3/src/Clock2/ClockTest2.java" afterPath="$PROJECT_DIR$/lesson03/src/Clock2/ClockTest2.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/lesson4.iml" afterPath="$PROJECT_DIR$/lesson04 and lesson05/lesson4.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Animal/Animal.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Animal/Animal.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Animal/AnimalImpl.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Animal/AnimalImpl.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Animal/Cow.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Animal/Cow.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Animal/Monkey.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Animal/Monkey.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Animal/Test.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Animal/Test.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Animal/Tiger.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Animal/Tiger.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Library/Book.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Library/Book.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Library/DVD.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Library/DVD.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Library/Library.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Library/Library.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/Library/Test.java" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/Library/Test.java" />
+      <change beforePath="$PROJECT_DIR$/lesson4 and lesson 5/src/src.zip" afterPath="$PROJECT_DIR$/lesson04 and lesson05/src/src.zip" />
+      <change beforePath="$PROJECT_DIR$/lesson6/lesson5.iml" afterPath="$PROJECT_DIR$/lesson06/lesson5.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/stack/adt/Stack.java" afterPath="$PROJECT_DIR$/lesson06/src/stack/adt/Stack.java" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/stack/impl/StackImpl.java" afterPath="$PROJECT_DIR$/lesson06/src/stack/impl/StackImpl.java" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/stack/impl/Test.java" afterPath="$PROJECT_DIR$/lesson06/src/stack/impl/Test.java" />
+      <change beforePath="$PROJECT_DIR$/lesson7/lesson7.iml" afterPath="$PROJECT_DIR$/lesson07/lesson7.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/adt/ArrayInQueue.java" afterPath="$PROJECT_DIR$/lesson07/src/adt/ArrayInQueue.java" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/impl/CopyQueueImpl.java" afterPath="$PROJECT_DIR$/lesson07/src/impl/CopyQueueImpl.java" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/impl/IntQueue.java" afterPath="$PROJECT_DIR$/lesson07/src/impl/IntQueue.java" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/impl/QueueImpl.java" afterPath="$PROJECT_DIR$/lesson07/src/impl/QueueImpl.java" />
+      <change beforePath="$PROJECT_DIR$/lesson8/lesson8.iml" afterPath="$PROJECT_DIR$/lesson08/lesson8.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/adt/IntQueue.java" afterPath="$PROJECT_DIR$/lesson09/src/adt/IntQueue.java" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/adt/IntStack.java" afterPath="$PROJECT_DIR$/lesson09/src/adt/IntStack.java" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/impl/ArrayIntQueue.java" afterPath="$PROJECT_DIR$/lesson08/src/impl/ArrayIntQueue.java" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/impl/ArrayIntStack.java" afterPath="$PROJECT_DIR$/lesson08/src/impl/ArrayIntStack.java" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/impl/Methods.java" afterPath="$PROJECT_DIR$/lesson08/src/impl/Methods.java" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/impl/Test.java" afterPath="$PROJECT_DIR$/lesson08/src/impl/Test.java" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/impl/Training.java" afterPath="$PROJECT_DIR$/lesson08/src/impl/Training.java" />
+      <change beforePath="$PROJECT_DIR$/lesson9/lesson9.iml" afterPath="$PROJECT_DIR$/lesson09/lesson9.iml" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/adt/IntQueue.java" afterPath="$PROJECT_DIR$/lesson08/src/adt/IntQueue.java" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/adt/IntStack.java" afterPath="$PROJECT_DIR$/lesson08/src/adt/IntStack.java" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/adt/Queue.java" afterPath="$PROJECT_DIR$/lesson09/src/adt/Queue.java" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/adt/Stack.java" afterPath="$PROJECT_DIR$/lesson09/src/adt/Stack.java" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/impl/ArrayQueue.java" afterPath="$PROJECT_DIR$/lesson09/src/impl/ArrayQueue.java" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/impl/ArrayStack.java" afterPath="$PROJECT_DIR$/lesson09/src/impl/ArrayStack.java" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/impl/Methods.java" afterPath="$PROJECT_DIR$/lesson09/src/impl/Methods.java" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/impl/Test.java" afterPath="$PROJECT_DIR$/lesson09/src/impl/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BST2Set.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BST2Set.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1511">
+            <state relative-caret-position="1365">
               <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Methods.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Methods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson15/src/Methods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -651,7 +698,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30793652" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30793652" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30793652" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -976,24 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1511">
-          <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#3589#3590#0" expanded="true" />
-            <element signature="e#3627#3628#0" expanded="true" />
-            <element signature="e#3668#3669#0" expanded="true" />
-            <element signature="e#3695#3696#0" expanded="true" />
-            <element signature="e#3826#3827#0" expanded="true" />
-            <element signature="e#3881#3882#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson15/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1046,9 +1075,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson15/src/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16 and lesson17/src/impl/BST2Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#3589#3590#0" expanded="true" />
+            <element signature="e#3627#3628#0" expanded="true" />
+            <element signature="e#3668#3669#0" expanded="true" />
+            <element signature="e#3695#3696#0" expanded="true" />
+            <element signature="e#3826#3827#0" expanded="true" />
+            <element signature="e#3881#3882#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

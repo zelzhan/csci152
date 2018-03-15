@@ -25,6 +25,8 @@ public class Methods {
         }
         return bool;
     }
+
+
         public static Set<Integer> intersection(Set<Integer> set1, Set<Integer> set2) {
         Set<Integer> result = new LLQueueSet<>();
         Set<Integer> save = new LLQueueSet<>();
