@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TempLesson/TempLesson.iml" filepath="$PROJECT_DIR$/TempLesson/TempLesson.iml" />
       <module fileurl="file://$PROJECT_DIR$/TempStack/TempStack.iml" filepath="$PROJECT_DIR$/TempStack/TempStack.iml" />
       <module fileurl="file://$PROJECT_DIR$/csci152.iml" filepath="$PROJECT_DIR$/csci152.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson01/lesson01.iml" filepath="$PROJECT_DIR$/lesson01/lesson01.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/lesson15/lesson15.iml" filepath="$PROJECT_DIR$/lesson15/lesson15.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson16 and lesson17/lesson16.iml" filepath="$PROJECT_DIR$/lesson16 and lesson17/lesson16.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson18/lesson18.iml" filepath="$PROJECT_DIR$/lesson18/lesson18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson19/lesson19.iml" filepath="$PROJECT_DIR$/lesson19/lesson19.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson02/lesson2.iml" filepath="$PROJECT_DIR$/lesson02/lesson2.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson03/lesson3.iml" filepath="$PROJECT_DIR$/lesson03/lesson3.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson07/lesson7.iml" filepath="$PROJECT_DIR$/lesson07/lesson7.iml" />

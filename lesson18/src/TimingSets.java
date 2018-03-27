@@ -15,7 +15,7 @@ public class TimingSets {
         System.out.println("Starting timing tests...");
         long time1, time2, duration;
         time1 = System.currentTimeMillis();
-        for (int i = 0; i < 1500; i++) {
+        for (int i = 0; i < 1000; i++) {
             set.add(i);
         }
         time2 = System.currentTimeMillis();
