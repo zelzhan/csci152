@@ -17,7 +17,9 @@ public class Student implements Comparable<Student> {
     }
 
     public int compareTo(Student s) {
-        return this.name.compareTo(s.getName());
+        if(this.ID < s.getID()) return -1;
+        else if(this.ID > s.getID()) return 1;
+        else return 0;
     }
 
     public int getID() {
@@ -33,8 +35,10 @@ public class Student implements Comparable<Student> {
         return "{name:" + this.name + "; ID:"+ this.ID + "}";
     }
 
-    public int HashCode(){
+    @Override
+    public int hashCode(){
         return getID();
+//        return 42;
     }
     @Override
     public boolean equals(Object obj) {

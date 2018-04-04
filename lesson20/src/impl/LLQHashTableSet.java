@@ -9,7 +9,6 @@
 package impl;
 
 import adt.HashTableSet;
-import adt.Set;
 
 public class LLQHashTableSet<T extends Comparable> implements HashTableSet<T> {
     private LinkedListQueue<T>[] hashtable;

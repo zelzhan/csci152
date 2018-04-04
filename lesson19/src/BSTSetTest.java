@@ -13,7 +13,9 @@ import impl.LLQHashTableSet;
 public class BSTSetTest {
     public static void main(String[] args){
         HashTableSet<Student> set1= new BSTHashTableSet<>(10);
-        for(int i = 0; i<5;i++ ) set1.add(new Student("Bob", i));
+        for(int i = 100; i<300;i++ ) set1.add(new Student("Bob", i));
         System.out.println(set1);
+        System.out.println("Load Factor" + set1.getLoadFactor());
+        System.out.println("Standard deviation" + set1.getBucketSizeStandardDev());
     }
 }

@@ -10,12 +10,13 @@ import adt.HashTableStats;
 import impl.LLQHashTableSet;
 public class Test {
     public static void main(String[] args){
-//        HashTableSet<Student> set = new LLQHashTableSet(10);
-//        for(int i = 100; i<300;i++ ) set.add(new Student("Bob", i));
-//        System.out.println(set);
-
-        HashTableSet<Student> set1= new LLQHashTableSet(10);
-//        for(int i = 0; i<10;i++) set1.add(new Student("Bob", i));
-        System.out.println(set1);
+        HashTableSet<Student> set = new LLQHashTableSet(100);
+        for(int i = 100; i<300;i++ ) set.add(new Student("Bob", i));
+        System.out.println(set);
+        System.out.println("Load Factor" + set.getLoadFactor());
+        System.out.println("Standard deviation" + set.getBucketSizeStandardDev());
+//        HashTableSet<Student> set1= new LLQHashTableSet(10);
+////        for(int i = 0; i<10;i++) set1.add(new Student("Bob", i));
+//        System.out.println(set1);
     }
 }
