@@ -21,10 +21,15 @@ Students will learn about common abstract data types such as stacks, queues, set
 ## Syllabus:
 
 Lesson 1 – Object-Orientation and Java
+
 Lesson 2 – Developing Classes
+
 Lesson 3 – Specifications and Exceptions
+
 Lesson 4 – Inheritance and Polymorphism
+
 Lesson 5 – Interfaces in Java
+
 Lesson 6 – ADTs and Stack
 
 Lesson 7 – Queue ADT
