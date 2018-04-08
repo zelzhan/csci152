@@ -1,4 +1,4 @@
-# +csci152+
+# CSCI152
 My solutions to the Performance and Data Structure course
 
 ## COURSE OVERVIEW
