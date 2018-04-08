@@ -17,6 +17,34 @@ Students will learn about common abstract data types such as stacks, queues, set
 * Students will understand basic object-oriented concepts, such as inheritance and polymorphism, though their implementation and use of ADTs in the Java language.
 
 
+
+## Syllabus:
+
+Lesson 1 – Object-Orientation and Java
+Lesson 2 – Developing Classes
+Lesson 3 – Specifications and Exceptions
+Lesson 4 – Inheritance and Polymorphism
+Lesson 5 – Interfaces in Java
+Lesson 6 – ADTs and Stack
+Lesson 7 – Queue ADT
+Lesson 8 – Using Stacks and Queues
+Lesson 9 – Generics
+Lesson 10 – Linked-List Stack
+Lesson 11 – Linked-List Queue
+Lesson 12 – Sorted Queues
+Lesson 13 – Deque ADT
+Lesson 14 – Big-O Notation
+Lesson 15 – Set ADT
+Lesson 16 – Binary Search Trees
+Lesson 17 – Removing BST Nodes
+Lesson 18 – Hash Tables
+Lesson 19 – Hash Functions
+Lesson 20 – Hash Table Performance
+Lesson 21 – Map ADT
+Lesson 22 – Implementing Map
+Lesson 23 – More Practice Using ADTs
+Lesson 24 – The Java API
+
 ## LAB EXERCISES
 ### Lab1:
 1.Write some Java code in the main method of a class that accomplishes the following tasks:
