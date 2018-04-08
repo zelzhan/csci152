@@ -9,21 +9,21 @@ Students will learn about common abstract data types such as stacks, queues, set
 
 ### By the end of this course:
 
-*Students will understand the concept of abstract data types (ADTs), and how they are supported by the interface construct in the Java language;
-*Students will be familiar with the most important ADTs used in the storage and retrieval of information in modern software systems, including stack, queue, set, and map.
-*Students will be able to design and implement these ADTs using both static memory (i.e., arrays) and dynamic methods;
-*Students will be able to examine the relative performance of the data structures, and the scalability of the structures as the size of data sets increases;
-*Students will be able to develop and test the data structures using component-based software engineering techniques;
-*Students will understand basic object-oriented concepts, such as inheritance and polymorphism, though their implementation and use of ADTs in the Java language.
+* Students will understand the concept of abstract data types (ADTs), and how they are supported by the interface construct in the Java language;
+* Students will be familiar with the most important ADTs used in the storage and retrieval of information in modern software systems, including stack, queue, set, and map.
+* Students will be able to design and implement these ADTs using both static memory (i.e., arrays) and dynamic methods;
+* Students will be able to examine the relative performance of the data structures, and the scalability of the structures as the size of data sets increases;
+* Students will be able to develop and test the data structures using component-based software engineering techniques;
+* Students will understand basic object-oriented concepts, such as inheritance and polymorphism, though their implementation and use of ADTs in the Java language.
 
 
 ## LAB EXERCISES
 ### Lab1:
 1.Write some Java code in the main method of a class that accomplishes the following tasks:
 
-*For a box with dimensions l, w, and h, compute and output the volume and surface area
-*For a circle with radius r, compute and output its circumference and area. Use the type double for your variables.
-*Create and output an ACSII art picture of your choice.
+* For a box with dimensions l, w, and h, compute and output the volume and surface area
+* For a circle with radius r, compute and output its circumference and area. Use the type double for your variables.
+* Create and output an ACSII art picture of your choice.
 
 ### Lab2:
 
@@ -100,8 +100,8 @@ public class Clock {
 ```
 Now, make the following additions to your Clock project:
 
-*Add proper getters and setters to your Clock class.  In cases where people try to provide bad values, simply ignore them, and do not change the values of the Clock object.
-*Similarly, modify the constructor so that if any of the values of h, m, or s are not valid, simply set all three fields to 0 (which represents midnight)
-*Add a reasonable toString() method to Clock.  If you want to be creative, try to take care of cases where a field value might be less than 10 and output a leading zero.  For example, instead of outputting the String 12:4:9, you output 12:04:09.  (Hint: use if-statements.)
-*Fix the tick() method so that minutes and hours may be incremented when we “roll over” into the next minute or hour.
-*Add another class with a main method that instantiates a Clock object, and tests the methods of the Clock class.
+* Add proper getters and setters to your Clock class.  In cases where people try to provide bad values, simply ignore them, and do not change the values of the Clock object.
+* Similarly, modify the constructor so that if any of the values of h, m, or s are not valid, simply set all three fields to 0 (which represents midnight)
+* Add a reasonable toString() method to Clock.  If you want to be creative, try to take care of cases where a field value might be less than 10 and output a leading zero.  For example, instead of outputting the String 12:4:9, you output 12:04:09.  (Hint: use if-statements.)
+* Fix the tick() method so that minutes and hours may be incremented when we “roll over” into the next minute or hour.
+* Add another class with a main method that instantiates a Clock object, and tests the methods of the Clock class.
