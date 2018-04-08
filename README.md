@@ -105,3 +105,37 @@ Now, make the following additions to your Clock project:
 * Add a reasonable toString() method to Clock.  If you want to be creative, try to take care of cases where a field value might be less than 10 and output a leading zero.  For example, instead of outputting the String 12:4:9, you output 12:04:09.  (Hint: use if-statements.)
 * Fix the tick() method so that minutes and hours may be incremented when we “roll over” into the next minute or hour.
 * Add another class with a main method that instantiates a Clock object, and tests the methods of the Clock class.
+
+## Lab3
+
+1.  Using either the Clock example from this or the previous lesson, make changes so that exceptions are thrown whenever bad inputs are provided to a constructor or a setter.  Also, add JavaDoc comment specifications for all of your methods and constructor(s).  Use the annotations @param, @return, and @throws, as appropriate.  Finally, make changes to the main method in your testing class so that it properly checks what happens when bad inputs are provided — main should handle, and not throw exceptions.
+
+2.  Make changes to the Automobile example from Lesson 1, adding exceptions and proper JavaDoc specifications as appropriate.  Feel free to make additions and enhancements to your class to make it more interesting.
+
+## Lab4
+
+1. Think of an example (other than Pets or Animals), where you may have one parent class, and at least three different subclasses.  Your parent class should have at least four different methods (including toString(), but not including getters and setters), and the subclasses should override some (but not all) of the parent class methods.  The toString() method should always be overridden.  Some of the subclasses should also have their own fields, and methods that are different from the other classes.  Examples include:
+
+* Mobile devices, with iPhones, iPads, and Galaxy Tablets as subclasses
+* Library materials, with books, DVDs, eBooks, and magazines as subclasses
+* NU people, with faculty, students, administrators, TAs, etc., as subclasses
+* Please add JavaDoc specifications to your methods, but don’t worry about being overly-detailed in your descriptions.
+
+## Lab5
+
+1.  Make the following additions and modifications to the example project from the lesson:
+
+* a)  Add some more method signatures to the Animal interface, which represent things that all animals can do (albeit differently).  Don’t forget the JavaDoc specifications.
+
+* b)  Notice that both the Tiger and Cow classes have an age field, as well as a getAge() getter and an ageOneYear() incrementor method which both have the same code.  A better approach might be to create an intermediate class AnimalImpl that implements Animal, and includes these common things, and have the Tiger and Cow classes simply inherit them by extending AnimalImpl.  The following UML class diagram summarizes these relationships:
+
+animalchallenge
+
+Don’t forget to remove the age-related code from Tiger and Cow — it is no longer needed there because it is inherited from AnimalImpl.  Since AnimalImpl needs to implement the whole Animal interface, you will need to put in default implementations for the other methods declared in Animal.
+
+* c)  Now that we have all of the age-related stuff in one place, AnimalImpl, add two additional fields to AnimalImpl: an int maxAge and a boolean isAlive.  Modify the method ageOneYear() so that it updates isAlive appropriately when the animal tries to age past its maxAge.
+
+* d)  Add a third class to the example that extends the AnimalImpl class (and thus implicitly implements the Animal interface).
+
+* e)  Finally, don’t forget to update your testing class to try all of these new features out.
+
