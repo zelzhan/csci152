@@ -22,7 +22,6 @@ public class Test {
         long time1, time2, duration;
         time1 = System.currentTimeMillis();
         for (int i = 0; i < 50000; i++) {
-//            System.out.println(i);
             set1.add(rand.nextInt());
         }
         time2 = System.currentTimeMillis();
