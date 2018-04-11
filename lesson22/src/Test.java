@@ -1,13 +1,23 @@
+import adt.HashTableMap;
 import adt.Map;
-import impl.KeyValuePair;
-import impl.LinkedListQueue;
-import impl.LLQueueMap;
+import impl.BSTHashTableMap;
+import impl.BSTMap;
+import impl.LLQHashTableMap;
 import impl.LLStackMap;
-import javax.sound.midi.SysexMessage;
 
 public class Test {
     public static void main(String[] args){
-        Map<Integer, String> map = new LLStackMap();
+        HashTableMap<Integer, String> map = new BSTHashTableMap<>(10);
+        try{
+            System.out.println(map.removeAny());
+
+
+        } catch (Exception ex){
+            System.out.println(ex.getMessage());
+
+        }
+        System.out.println(map);
+
         try{
             map.removeAny();
         } catch (Exception ex){
@@ -30,8 +40,8 @@ public class Test {
         System.out.println(map.getSize());
         map.define(120, "What");
 
-        map.define(122, "The");
         map.define(155, "Hell");
+        map.define(122, "The");
         System.out.println(map);
         System.out.println(map.getSize());
         try{
@@ -48,5 +58,6 @@ public class Test {
         map.define(2, "2");
         System.out.println(map);
         System.out.println(map.getSize());
+
     }
 }
