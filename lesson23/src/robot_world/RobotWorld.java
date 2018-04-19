@@ -52,9 +52,19 @@ public class RobotWorld {
      * 90 degrees
      */
     public void rotateClockwise() {
-        
-        // TODO: Fix me!!!  this now only works if the robot was facing north :)
-        worldMap[robotRow][robotColumn] = EAST; 
+        if(worldMap[robotRow][robotColumn] == EAST){
+            worldMap[robotRow][robotColumn] = SOUTH;
+            return;
+        }
+        if(worldMap[robotRow][robotColumn] == NORTH){
+            worldMap[robotRow][robotColumn] = EAST;
+            return;
+        }
+        if(worldMap[robotRow][robotColumn] == WEST){
+            worldMap[robotRow][robotColumn] = NORTH;
+            return;
+        }
+        if(worldMap[robotRow][robotColumn] == SOUTH) worldMap[robotRow][robotColumn] = WEST;
     }
     
     
@@ -63,9 +73,20 @@ public class RobotWorld {
      * clockwise 90 degrees
      */
     public void rotateCounterClockwise() {
-        
-        // TODO: Fix me!!!  this now only works if the robot was facing south :)
-        worldMap[robotRow][robotColumn] = EAST; 
+        if(worldMap[robotRow][robotColumn] == EAST){
+            worldMap[robotRow][robotColumn] = NORTH;
+            return;
+        }
+        if(worldMap[robotRow][robotColumn] == NORTH){
+            worldMap[robotRow][robotColumn] = WEST;
+            return;
+        }
+        if(worldMap[robotRow][robotColumn] == WEST){
+            worldMap[robotRow][robotColumn] = SOUTH;
+            return;
+        }
+        if(worldMap[robotRow][robotColumn] == SOUTH) worldMap[robotRow][robotColumn] = EAST;
+        worldMap[robotRow][robotColumn] = EAST;
     }
     
     
@@ -75,15 +96,56 @@ public class RobotWorld {
      * Also outputs a message if the robot finds the goal
      */
     public void moveForward() throws Exception {
-        
-        // TODO: Fix this so that the worldMap, robotRow, and robotColumn
-    	// are updated appropriately
-    	
-    	// If the robot lands on the goal, then output the message SUCCESS!
-    	// In this case, the goal will no longer be on the world map
+        if(worldMap[robotRow][robotColumn] == NORTH){
+            worldMap[robotRow][robotColumn] = SPACE;
+            robotRow-=1;
+            if(worldMap[robotRow][robotColumn] == GOAL) System.out.println("SUCCESS!");
+            worldMap[robotRow][robotColumn] = NORTH;
+        }
+        if(worldMap[robotRow][robotColumn] == SOUTH){
+            worldMap[robotRow][robotColumn] = SPACE;
+            robotRow+=1;
+            if(worldMap[robotRow][robotColumn] == GOAL) System.out.println("SUCCESS!");
+            worldMap[robotRow][robotColumn] = SOUTH;
+
+        }
+        if(worldMap[robotRow][robotColumn] == EAST) {
+            worldMap[robotRow][robotColumn] = SPACE;
+            robotColumn+=1;
+            if(worldMap[robotRow][robotColumn] == GOAL) System.out.println("SUCCESS!");
+            worldMap[robotRow][robotColumn] = EAST;
+        }
+        if(worldMap[robotRow][robotColumn] == WEST) {
+            worldMap[robotRow][robotColumn] = SPACE;
+            robotColumn-=1;
+            if(worldMap[robotRow][robotColumn] == GOAL) System.out.println("SUCCESS!");
+            worldMap[robotRow][robotColumn] = WEST;
+        }
     }
-    
-    
+    protected void moveBackward(){
+        if(worldMap[robotRow][robotColumn] == NORTH){
+            worldMap[robotRow][robotColumn] = SPACE;
+            robotRow+=1;
+            worldMap[robotRow][robotColumn] = NORTH;
+        }
+        if(worldMap[robotRow][robotColumn] == SOUTH){
+            worldMap[robotRow][robotColumn] = SPACE;
+            robotRow-=1;
+            worldMap[robotRow][robotColumn] = SOUTH;
+
+        }
+        if(worldMap[robotRow][robotColumn] == EAST) {
+            worldMap[robotRow][robotColumn] = SPACE;
+            robotColumn-=1;
+            worldMap[robotRow][robotColumn] = EAST;
+        }
+        if(worldMap[robotRow][robotColumn] == WEST) {
+            worldMap[robotRow][robotColumn] = SPACE;
+            robotColumn+=1;
+            worldMap[robotRow][robotColumn] = WEST;
+        }
+    }
+
     public void printCurrentWorldMap() {
     	
     	for (int i = 0; i < maxRows; i++) {

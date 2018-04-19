@@ -31,7 +31,7 @@ public class HanoiSolution {
         return tower.getNumMoves();
     }
     public static void main(String[] args){
-        TowerOfHanoi tower = new TowerOfHanoi(20);
+        TowerOfHanoi tower = new TowerOfHanoi(10);
         System.out.println(solution(tower));
     }
 }
